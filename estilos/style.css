@@ -34,7 +34,7 @@ section#login {
 
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 580px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
 
@@ -67,6 +67,44 @@ div#formulario > h1 {
 
 div#formulario > p {
     font-size: 1.2em;
+}
+
+form > div.campo {
+    background-color: #5f2c82;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    margin: 5px 0px;
+}
+
+div.campo > label {
+    display: none;
+}
+
+div.campo > i {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > input:focus-within {
+    background-color: white;
+    border: none;
+}
+
+div.campo > input {
+    background-color: #49a09d;
+    font-size: 1em;
+    width: calc(100% - 44px);
+    transform: translateY(0.7px);
+    transform: translateX(-2px);
+    float: right;
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
 }
 
 form > input[type=submit] {
